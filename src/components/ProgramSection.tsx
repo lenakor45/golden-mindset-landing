@@ -10,7 +10,7 @@ const ProgramSection = () => {
     },
     {
       icon: MessageCircle,
-      time: "11:45 - 13:00",
+      time: "13:00 - 13:30",
       title: "Горячие кресла",
       description: "Разбор реальных бизнес-кейсов участниц с экспертной поддержкой"
     },
