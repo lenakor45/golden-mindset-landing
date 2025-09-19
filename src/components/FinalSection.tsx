@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, MapPin, Users } from "lucide-react";
-
 const FinalSection = () => {
-  return (
-    <section className="py-24 px-6 bg-background relative overflow-hidden">
+  return <section className="py-24 px-6 bg-background relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-96 h-96 bg-gold/20 rounded-full blur-3xl"></div>
@@ -28,41 +26,33 @@ const FinalSection = () => {
           <div className="card-premium p-6 group hover:scale-105 transition-all duration-300">
             <Calendar className="w-8 h-8 text-gold mx-auto mb-4" />
             <h3 className="font-premium font-semibold text-foreground mb-2">Дата</h3>
-            <p className="text-muted-foreground font-modern">15 декабря 2024</p>
-            <p className="text-sm text-muted-foreground font-modern">10:00 - 17:00</p>
+            <p className="text-muted-foreground font-modern">26 октября 2025</p>
+            <p className="text-sm text-muted-foreground font-modern">13:00 - 17:00</p>
           </div>
 
           <div className="card-premium p-6 group hover:scale-105 transition-all duration-300">
             <MapPin className="w-8 h-8 text-gold mx-auto mb-4" />
             <h3 className="font-premium font-semibold text-foreground mb-2">Место</h3>
-            <p className="text-muted-foreground font-modern">Москва</p>
+            <p className="text-muted-foreground font-modern">Оренубрг</p>
             <p className="text-sm text-muted-foreground font-modern">Премиальный лофт в центре</p>
           </div>
 
           <div className="card-premium p-6 group hover:scale-105 transition-all duration-300">
             <Users className="w-8 h-8 text-gold mx-auto mb-4" />
             <h3 className="font-premium font-semibold text-foreground mb-2">Участники</h3>
-            <p className="text-muted-foreground font-modern">До 25 человек</p>
+            <p className="text-muted-foreground font-modern">40 человек</p>
             <p className="text-sm text-muted-foreground font-modern">Камерная атмосфера</p>
           </div>
         </div>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button 
-            variant="gold" 
-            size="lg" 
-            className="text-lg px-12 py-6 h-auto font-modern font-semibold tracking-wide group"
-          >
+          <Button variant="gold" size="lg" className="text-lg px-12 py-6 h-auto font-modern font-semibold tracking-wide group">
             Забронировать место
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
           
-          <Button 
-            variant="goldOutline" 
-            size="lg" 
-            className="text-lg px-8 py-6 h-auto font-modern font-semibold"
-          >
+          <Button variant="goldOutline" size="lg" className="text-lg px-8 py-6 h-auto font-modern font-semibold">
             Узнать подробности
           </Button>
         </div>
@@ -85,8 +75,6 @@ const FinalSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FinalSection;
