@@ -4,26 +4,26 @@ const ProgramSection = () => {
   const programBlocks = [
     {
       icon: Lightbulb,
-      time: "10:00 - 11:30",
-      title: "Стратегическое видение",
+      time: "13:00 - 14:00",
+      title: "Первый этап",
       description: "Работа над долгосрочными целями и построением стратегии масштабирования бизнеса"
     },
     {
       icon: MessageCircle,
-      time: "13:00 - 13:30",
-      title: "Горячие кресла",
+      time: "14:00 - 15:00",
+      title: "Второй этап",
       description: "Разбор реальных бизнес-кейсов участниц с экспертной поддержкой"
     },
     {
       icon: Network,
-      time: "14:00 - 15:30",
-      title: "Нетворкинг-сессия",
+      time: "15:15 - 16:15",
+      title: "Третий этап",
       description: "Структурированное знакомство и поиск синергий между участницами"
     },
     {
       icon: Clock,
-      time: "15:45 - 17:00",
-      title: "Планы действий",
+      time: "16:15 - 17:00",
+      title: "Четвертый этап",
       description: "Составление конкретного плана развития на ближайшие 90 дней"
     }
   ];
@@ -75,7 +75,7 @@ const ProgramSection = () => {
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-gold/10 border border-gold/20 rounded-full">
             <Clock className="w-5 h-5 text-gold" />
             <span className="text-gold font-modern font-semibold">
-              Продолжительность: 7 часов интенсивной работы
+              Продолжительность: 4 часа интенсивной работы
             </span>
           </div>
         </div>
