@@ -46,7 +46,10 @@ const HeroSection = () => {
           variant="gold" 
           size="lg" 
           className="text-lg px-12 py-6 h-auto font-modern font-semibold tracking-wide"
-          href="#PricingBox"
+          onClick={() => {
+            const pricingSection = document.getElementById('PricingBox');
+            pricingSection?.scrollIntoView({ behavior: 'smooth' });
+          }}
         >
           Купить билет
         </Button>
