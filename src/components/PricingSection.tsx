@@ -7,7 +7,7 @@ const PricingSection = () => {
     originalPrice: "5 500",
     features: ["Участие в полной программе мастермайнда", "Материалы для работы в бизнес мастермайнде", "Кофе-брейк премиум-класса", "Нетворкинг с участницами", "Фото с мероприятия"]
   };
-  return <section className="py-24 px-6 bg-card/50">
+  return <section id = "PricingBox" className="py-24 px-6 bg-card/50">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-premium font-bold mb-6">
