@@ -47,7 +47,7 @@ const HeroSection = () => {
           size="lg" 
           className="text-lg px-12 py-6 h-auto font-modern font-semibold tracking-wide"
         >
-          Купить
+          Купить билет
         </Button>
 
         {/* Decorative Elements */}
