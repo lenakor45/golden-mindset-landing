@@ -20,7 +20,7 @@ const AboutSection = () => {
     {
       icon: Sparkles,
       title: "Личностный рост",
-      description: "Перейти на новый уровень"
+      description: "Переход на новый уровень"
     }
   ];
 
