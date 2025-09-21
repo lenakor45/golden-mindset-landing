@@ -3,9 +3,9 @@ import { Check, Crown, Gift } from "lucide-react";
 const PricingSection = () => {
   const pricingOption = {
     name: "Участие в мастермайнде",
-    price: "45 000",
-    originalPrice: "60 000",
-    features: ["Участие в полной программе мастермайнда", "Материалы и презентации всех спикеров", "Кофе-брейки и обед премиум-класса", "Доступ в чат поддержки на 30 дней", "Сертификат участника", "Индивидуальная консультация", "Эксклюзивные материалы"]
+    price: "3 500",
+    originalPrice: "5 500",
+    features: ["Участие в полной программе мастермайнда", "Материалы и презентации всех модераторов", "Кофе-брейки и обед премиум-класса", "Доступ в чат поддержки на 30 дней", "Сертификат участника", "Нетворкинг с участницами", "Фото с мероприятия"]
   };
   return <section className="py-24 px-6 bg-card/50">
       <div className="max-w-5xl mx-auto">
@@ -39,7 +39,7 @@ const PricingSection = () => {
                 <span className="text-4xl font-premium font-bold text-gold-gradient">
                   {pricingOption.price}
                 </span>
-                <span className="text-lg text-muted-foreground font-modern">3 500</span>
+                <span className="text-lg text-muted-foreground font-modern">₽</span>
               </div>
               
               <p className="text-sm text-muted-foreground mt-2 font-modern">
@@ -61,7 +61,7 @@ const PricingSection = () => {
             </div>
 
             <Button variant="gold" className="w-full font-modern font-semibold text-lg py-6 h-auto">
-              Забронировать место
+              Купить билет
             </Button>
           </div>
         </div>
