@@ -39,7 +39,7 @@ const HeroSection = () => {
         </div>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto font-modern leading-relaxed">
-          Пространство для женщин, которые делают большие дела
+          Сообщество "Код Публичности" г. Оренбург
         </p>
 
         <Button 
@@ -47,7 +47,7 @@ const HeroSection = () => {
           size="lg" 
           className="text-lg px-12 py-6 h-auto font-modern font-semibold tracking-wide"
         >
-          Забронировать место
+          Купить
         </Button>
 
         {/* Decorative Elements */}
