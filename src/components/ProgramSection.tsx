@@ -1,30 +1,30 @@
-import { Clock, MessageCircle, Lightbulb, Network } from "lucide-react";
+import { Clock, MessageCircle, Lightbulb, Network, Users, Camera } from "lucide-react";
 
 const ProgramSection = () => {
   const programBlocks = [
     {
       icon: Lightbulb,
-      time: "13:00 - 14:00",
-      title: "Первый этап",
-      description: "Интерактивная сессия с обсуждением ключевых вопросов и планированием"
+      time: "25 минут",
+      title: "Вступительная часть",
+      description: "Представление сообщества, результаты за год и структура мероприятия ББММ от модераторов"
     },
     {
       icon: MessageCircle,
-      time: "14:00 - 15:00",
-      title: "Второй этап",
-      description: "Групповая работа и обмен опытом между участниками"
+      time: "2 часа 10 минут",
+      title: "Работа за столами",
+      description: "Мастермайнд в малых группах: самопрезентация (1 мин/чел), отработка запросов (10 мин/чел) и секретный круг"
     },
     {
       icon: Network,
-      time: "15:15 - 16:15",
-      title: "Третий этап",
-      description: "Практические упражнения и создание связей"
+      time: "1 час",
+      title: "Нетворкинг и фуршет",
+      description: "Свободное общение, фуршет с игристым и ярмарка товаров от партнеров"
     },
     {
-      icon: Clock,
-      time: "16:15 - 17:00",
-      title: "Четвертый этап",
-      description: "Подведение итогов и постановка задач на будущее"
+      icon: Camera,
+      time: "25 минут",
+      title: "Интервью и фото",
+      description: "Интервью о впечатлениях, общее фото всех участников и салют из хлопушек"
     }
   ];
 
@@ -36,8 +36,8 @@ const ProgramSection = () => {
             <span className="text-gold-gradient">Формат и программа</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-modern leading-relaxed">
-            Насыщенный день практических сессий, стратегических дискуссий 
-            и качественного нетворкинга в камерной атмосфере
+            5 столов по 10 участников + 5 модераторов = 55 человек. 
+            Камерная атмосфера для глубокой проработки бизнес-вопросов
           </p>
         </div>
 
