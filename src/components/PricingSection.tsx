@@ -42,9 +42,7 @@ const PricingSection = () => {
                 <span className="text-lg text-muted-foreground font-modern">₽</span>
               </div>
               
-              <p className="text-sm text-muted-foreground mt-2 font-modern">
-                Раннее бронирование до 30 ноября
-              </p>
+          
             </div>
 
             <div className="space-y-4 mb-8">
