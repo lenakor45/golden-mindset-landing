@@ -35,10 +35,6 @@ const ProgramSection = () => {
           <h2 className="text-4xl md:text-5xl font-premium font-bold mb-6">
             <span className="text-gold-gradient">Формат и программа</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-modern leading-relaxed">
-            5 столов по 10 участников + 5 модераторов = 55 человек. 
-            Камерная атмосфера для глубокой проработки бизнес-вопросов
-          </p>
         </div>
 
         <div className="space-y-8">
