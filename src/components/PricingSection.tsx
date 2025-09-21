@@ -21,10 +21,7 @@ const PricingSection = () => {
         <div className="max-w-md mx-auto">
           <div className="card-premium p-8 relative group hover:scale-[1.02] transition-all duration-300 border-2 border-gold/30">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <div className="bg-gold text-primary-foreground px-6 py-2 rounded-full flex items-center gap-2 font-modern font-semibold">
-                <Crown className="w-4 h-4" />
-                Ограниченное предложение
-              </div>
+              
             </div>
 
             <div className="text-center mb-8">
@@ -51,8 +48,7 @@ const PricingSection = () => {
             </div>
 
             <div className="space-y-4 mb-8">
-              {pricingOption.features.map((feature, featureIndex) => 
-                <div key={featureIndex} className="flex items-start gap-3">
+              {pricingOption.features.map((feature, featureIndex) => <div key={featureIndex} className="flex items-start gap-3">
                   <div className="flex-shrink-0 mt-1">
                     <div className="w-6 h-6 rounded-full bg-gold/10 border border-gold/20 flex items-center justify-center">
                       <Check className="w-4 h-4 text-gold" />
@@ -61,8 +57,7 @@ const PricingSection = () => {
                   <span className="text-muted-foreground font-modern leading-relaxed">
                     {feature}
                   </span>
-                </div>
-              )}
+                </div>)}
             </div>
 
             <Button variant="gold" className="w-full font-modern font-semibold text-lg py-6 h-auto">
