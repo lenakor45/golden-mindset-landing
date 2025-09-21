@@ -46,6 +46,7 @@ const HeroSection = () => {
           variant="gold" 
           size="lg" 
           className="text-lg px-12 py-6 h-auto font-modern font-semibold tracking-wide"
+          href="#PricingBox"
         >
           Купить билет
         </Button>
